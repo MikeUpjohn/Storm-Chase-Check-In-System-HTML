@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="css/developer.css">
+
+	<title>Storm Chase Check-In System</title>
+</head>
+<body class="checkin">
+	<nav class="navbar navbar-default navbar-fixed-top">
+      		<div class="container">
+        		<div class="navbar-header">
+          			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			            <span class="sr-only">Toggle navigation</span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+          			</button>
+        		</div>
+        		<div id="navbar" class="navbar-collapse collapse">
+          			<ul class="nav navbar-nav navbar-right">
+            			<li><a href="/">Check Me In</a></li>
+            			<li><a href="/">My Check Ins</a></li>
+            			<li><a href="/">Logout</a></li>
+          			</ul>
+        		</div>
+      		</div>
+    	</nav>
+	<div class="container">
+		<div class="row">
+		    	<div class="col-xs-12">
+		    	<div class="vertical-center">
+			    		<div class="floating-panel">
+				    		<h1 class="main-title black">Check Me In</h1>
+				    		<form class="full-width-form">
+					    		<div class="form-group">
+					    			<div class="row">
+					    				<div class="col-md-2">
+										<label for="report">Text</label>
+									</div>
+									<div class="col-md-10">
+					    					<textarea name="report" class="form-control"></textarea>
+					    				</div>
+					    			</div>
+					    		</div>
+					    		<div class="form-group">
+						    		<div class="row">
+						    			<div class="col-md-2">
+						    				<label for="Latitude">Latitude</label>
+						    			</div>
+										<div class="col-md-10">
+						    				<input class="form-control" type="text" name="Latitude" value="-99.7984" placeholder="Latitude">
+						    			</div>
+						    		</div>
+						    	</div>
+					    		<div class="form-group">
+						    		<div class="row">
+							    		<div class="col-md-2">
+						    				<label for="Longitude">Longitude</label>
+						    			</div>
+											<div class="col-md-10">
+						    				<input class="form-control" type="text" name="Longitude" value="101.2566" placeholder="Latitude">
+						    			</div>
+						    		</div>
+						    	</div>
+						    	<div class="form-group">
+						    		<div class="row">
+						    			<div class="col-md-12">
+						    				<input type="submit" value="Check In" class="form-submit-button">
+						    			</div>
+						    		</div>
+						    	</div>
+				    		</form>
+			    		</div>
+		    		</div>
+		    	</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/developer.js"></script>
+</body>
